@@ -5,7 +5,7 @@
 
 // const result = Number.parseInt(elementWidth);
 // console.log(result);
-// console.log(typeof result); 
+// console.log(typeof result);
 
 // elementWidth = Number.parseInt(elementWidth);
 // console.log('elementWidth:', elementWidth);
@@ -14,8 +14,7 @@
 // elementHight = Number.parseFloat(elementHight);
 // console.log('elementHight', elementHight);
 
-console.log('----------------------------------')
-
+console.log('----------------------------------');
 
 /** toFixed(digits) */
 
@@ -32,17 +31,17 @@ console.log(typeof salary);
 console.log(Number(salary.toFixed(2)));
 console.log(typeof Number(salary.toFixed(2)));
 
-console.log('----------------------------------')
+console.log('----------------------------------');
 
 /** Convert to Number */
 
 let quantity = '30';
-let value = 'Not a Number'
+let value = 'Not a Number';
 
 console.log(Number(quantity));
 console.log(Number(value));
 
-console.log('----------------------------------')
+console.log('----------------------------------');
 
 /** Аscension to degree - вознесіння до ступеня
     Exponent operator
@@ -54,9 +53,9 @@ console.log('----------------------------------')
 
 // 5
 
-console.log('----------------------------------')
+console.log('----------------------------------');
 
-/** Напиши скрипт, який просить користувача  ввести число і степінь, 
+/** Напиши скрипт, який просить користувача  ввести число і степінь,
  * вводить число в цю степінь і виводить результат в консоль */
 
 // Ввести число
@@ -72,10 +71,10 @@ console.log('----------------------------------')
 // Привести введені дані в степінь і вивести результат
 // console.log('Результат', base ** power);
 
-/* Генерація псевдовипадкових чисел 
-*- Math.random()
-*- Math.round()
-*/
+/* Генерація псевдовипадкових чисел
+ *- Math.random()
+ *- Math.round()
+ */
 
 // Math.random() * (max - min) + min
 // const max = 50;
@@ -86,8 +85,19 @@ console.log('----------------------------------')
 
 /** ЗАДАЧА... Рандомна зміна кольору фону */
 
-const colors = ['tomato', 'teal', 'orange', 'blue', 'red', 'green', 'yellow', 'pink'];
+const colors = [
+  'tomato',
+  'teal',
+  'orange',
+  'blue',
+  'red',
+  'green',
+  'yellow',
+  'pink',
+];
+
 const max = colors.length - 1;
+
 const min = 0;
 
 const index = Math.round(Math.random() * (max - min) + min);
@@ -97,17 +107,3 @@ const color = colors[index];
 console.log(color);
 
 document.body.style.backgroundColor = color;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
